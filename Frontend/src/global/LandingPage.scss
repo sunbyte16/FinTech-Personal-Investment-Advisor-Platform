@@ -1,0 +1,95 @@
+.stocksTransform{
+    text-align: center;
+    display: inline;
+    position: relative;
+    font-size: 1000em;
+    font-weight: bolder;
+    background-image: url"/images/domainDesign.png";
+    > div > p> span{
+        animation: topToBottom 10s linear 0s infinite;
+        position: absolute;
+        margin-left:1% ;
+        -webkit-font-smoothing: antialiased;
+    }
+    span:nth-child(1){
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+    }
+    span:nth-child(2){
+        -webkit-animation-delay:-2s;
+        animation-delay: -2s;
+    }
+    span:nth-child(3){
+        -webkit-animation-delay: -4s;
+        animation-delay: -4s;
+    }
+    span:nth-child(4){
+        -webkit-animation-delay: -6s;
+        animation-delay: -6s;
+    }
+    span:nth-child(5){
+        -webkit-animation-delay: -8s;
+        animation-delay: -8s;
+    }
+    // margin: 20px;
+    // border: black 1px solid;
+}
+
+@keyframes topToBottom {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+        -webkit-transform: translateY(-50px);
+    }
+    15% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+    25% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+    30% {
+        opacity: 0;
+        -webkit-transform: translateY(50px);
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.Tile1{
+    padding-left: 50%;
+    padding-top: 0%;
+    position: absolute;
+}
+
+.Tile2{
+    padding-left: 70%;
+    padding-top: 15%;
+    position: absolute;
+}
+
+.Tile3{
+    padding-left: 70%;
+    padding-top: 0%;
+    position: absolute;
+}
+
+.Tile4{
+    padding-left: 50%;
+    padding-top: 15%;
+    position: absolute;
+}
+
+
+.tradeImage1{
+    border-radius: 25px;
+}
+  
